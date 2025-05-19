@@ -4,6 +4,7 @@ public class ScientificCalculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         boolean running = true;
+        
 
         while (running) {
             System.out.println("\n=== Scientific Calculator ===");
