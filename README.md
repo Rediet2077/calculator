@@ -1,4 +1,4 @@
-# Mini Market system
+# calculator
 
 ## Getting Started
 
