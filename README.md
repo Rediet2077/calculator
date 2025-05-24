@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
+
 # calculator
 
 ## Getting Started
