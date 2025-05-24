@@ -1,4 +1,3 @@
-
                     import java.util.Scanner;
 
                     public class Powere {
@@ -30,12 +29,39 @@
                                     double angle = scanner.nextDouble();
                                     System.out.println("sin(" + angle + "°) = " + Math.sin(Math.toRadians(angle)));
                                     break;
+                                    case 6: // Square Root
+                                            System.out.print("Enter non-negative number: ");
+                                             num = scanner.nextDouble();
+                                            if (num >= 0) {
+                                                System.out.println("√" + num + " = " + Math.sqrt(num));
+                                            } else {
+                                                System.out.println("Invalid input! Number must be non-negative.");
+                                            }
+                                            break;
                                     case 7: // Power
                                         System.out.print("Enter base: ");
                                         double base = scanner.nextDouble();
                                         System.out.print("Enter exponent: ");
                                         double exponent = scanner.nextDouble();
                                         System.out.println(base + "^" + exponent + " = " + Math.pow(base, exponent));
+                                        break;
+                                    case 8:
+                                        System.out.print("Enter non-negative integer: ");
+                                        num = scanner.nextDouble();
+                                        if (num >= 0 && num == (int) num) {
+                                            long factorial = 1;
+                                            for (int i = 1; i <= (int) num; i++) {
+                                                factorial *= i;
+                                            }
+                                            System.out.println((int) num + "! = " + factorial);
+                                        } else {
+                                            System.out.println("Invalid input! Must be non-negative integer.");
+                                        }
+                                        break;
+                    
+                                    case 9: // Exit
+                                        running = false;
+                                        System.out.println("Exiting calculator...");
                                         break;
                                     default:
                                         System.out.println("Feature not implemented yet!");
@@ -44,3 +70,6 @@
                             scanner.close();
                         }
                     }
+                    
+
+            
