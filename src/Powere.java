@@ -35,6 +35,11 @@
     angle = scanner.nextDouble();
     System.out.println("cos(" + angle + "°) = " + Math.cos(Math.toRadians(angle)));
     break;
+    case 3: // Tangent
+                    System.out.print("Enter angle in degrees: ");
+                    angle = scanner.nextDouble();
+                    System.out.println("tan(" + angle + "°) = " + Math.tan(Math.toRadians(angle)));
+                    break;
                                     case 4: // Natural Logarithm
                                         System.out.print("Enter positive number: ");
                                         double num = scanner.nextDouble();
