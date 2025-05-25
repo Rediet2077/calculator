@@ -30,6 +30,11 @@
                                     double angle = scanner.nextDouble();
                                     System.out.println("sin(" + angle + "°) = " + Math.sin(Math.toRadians(angle)));
                                     break;
+                                    case 2:
+    System.out.print("Enter angle in degrees: ");
+    angle = scanner.nextDouble();
+    System.out.println("cos(" + angle + "°) = " + Math.cos(Math.toRadians(angle)));
+    break;
                                     case 4: // Natural Logarithm
                                         System.out.print("Enter positive number: ");
                                         double num = scanner.nextDouble();
